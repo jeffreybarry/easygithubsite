@@ -16,6 +16,9 @@ Be sure that your code is not within this comment section.
 //===>Your code goes on the next line:
 
 
+
+
+
 /*
 Step 2. In this step you will add 3 class names from the animate.css library to the variable you stored in step 1.
 This step is a fill-in-the-blank below. I have provided the method details. You simply need to add the name of the variable you created in step 1,
