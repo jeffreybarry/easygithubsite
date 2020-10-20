@@ -13,7 +13,8 @@ something4 = value for method
 Be sure that your code is not within this comment section.
 */
 
-//===>Your code goes on the next line:
+//Your code goes on the next line:
+const animation = document.getElementById('quote');
 
 
 /*
@@ -21,20 +22,9 @@ Step 2. In this step you will add 3 class names from the animate.css library to 
 This step is a fill-in-the-blank below. I have provided the method details. You simply need to add the name of the variable you created in step 1,
 */
 
-//===>Your code goes on the next line. Add the variable name to the beginning:
-.classList.add('animate__animated', 'animate__backInRight', 'animate__slower');
+//Your code goes on the next line. Add the variable name to the beginning:
+animation.classList.add('animate__animated', 'animate__backInRight', 'animate__slower');
 
-/*
-Step 3: Add console log statement to the end of this script.
-You simply want to write a statement the console log of the browser. The statement can be anything, e.g., "animation completed". You will need to determine how to add the console log command with your statement.
+//add console log statement
 
-*/
-
-//===>Your code goes on the next line:
-
-
-
-/*
-hint: you will need when your JS code is correct when you receive no errors in the console log. If you receive a syntax error in the console log when loading the learntargetj3.html page, then try to troubleshoot and resolve the error.
-
-*/
+console.log('Animation completed');
