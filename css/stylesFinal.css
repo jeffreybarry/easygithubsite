@@ -1,0 +1,66 @@
+body {
+  background-color: #05668D;
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, serif;
+}
+
+#top {
+  background-color: #00A896;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+h1 {
+  font-size: 4.4rem;
+  text-align: center;
+  color: #04415A;
+}
+
+/* 1. change underlining to none */
+a {
+  color: #00a896;
+  text-decoration: none;
+}
+
+/* 2. add dotted border to a */
+a:hover {
+  border-bottom: 1px dotted;
+}
+
+p {
+  font-family: Helvetica, Verdana, Arial, sans-serif;
+  font-size: 1.8rem;
+  margin-left: 5rem;
+  margin-right: 15rem;
+}
+
+.redtext {
+  color: #00A896;
+}
+
+/* 3. change color of blockquote bar from #028090 to #00A896*/
+blockquote {
+  margin-left: 5rem;
+  border-left: 1rem solid #00A896;
+}
+
+blockquote p {
+  margin-left: 1rem;
+}
+
+/* 4. Why is this Georgia? Inheritance */
+cite {
+  margin-left: 1rem;
+}
+
+/* 5. Make song title into a link by replacing strong tag with an a */
+/* 6. Explain what is happening with &ldquo;  Also, change to single quotes and experiment with other character entitites. Change prime in quote to apostrophe
+https://dev.w3.org/html5/html-author/charref
+
+https://www.typewolf.com/cheatsheet
+
+em dash $mdash;
+
+*/
+/* 7. open link in new tab */
